@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+
+  .section1, .section2, .section3, .nav {
+    display: inherit;
+    height: auto;
+    width: auto;
+  }
+
+  .section1-content, .section2-content, .section3-content {
+    width: auto;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .section1-products, .section2-beneficios, .section3-mencion {
+    height: auto;
+    width: auto;
+    padding: 2rem;
+  }
+  .logo-content {
+    padding: 0;
+    text-align: center;
+  }
+  .logo {
+    width: 20rem;
+    height: 10rem;
+  }
+  .nav-menu {
+    justify-content: center;
+  }
+  h1 {
+    padding: 0;
+    font-size: 3.8rem;
+  }
+  h3 {
+    padding: 1rem;
+  }
+
+}
