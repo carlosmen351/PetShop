@@ -1,4 +1,4 @@
-/* Variables */
+/* ------------------------------------------Variables */
 :root {
   --azul-luz: #219EBC;
   --azul-fuerte: #023047;
@@ -8,7 +8,7 @@
   /* Box */
   --sombra: 0 0 2rem var(--color1);
 }
-/* Seccion general */
+/* -----------------------------------------Seccion general */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -31,14 +31,14 @@ h3 {
   padding: 1rem;
   padding-bottom: 4rem;
 }
-/* Seccion general */
-/* Seccion del header */
+/* --------------------------------------------Seccion general */
+/* --------------------------------------------Seccion del header */
 .nav {
   display: flex;
   background-color: var(--azul-fuerte);
   padding: 1rem;
   justify-content: space-between;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
 }
 
 .logo {
@@ -50,11 +50,16 @@ h3 {
 .nav-menu {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-menu ul {
   display: flex;
   list-style: none;
+}
+.nav-menu li {
+  display: flex;
+  justify-content: end;
 }
 
 .nav-menu_option {
@@ -72,8 +77,8 @@ h3 {
   cursor: pointer;
   color: var(--backcolor);
 }
-/* Seccion del header */
-/* Seccion main */
+/*------------------------------------------------ Seccion del header */
+/* ---------------------------------------------------------Seccion main */
 .section1 {
   display: flex;
   justify-content: space-around;
@@ -81,7 +86,7 @@ h3 {
 
 h1 {
   padding-top: 4rem;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
   color: var(--color1);
 }
@@ -135,8 +140,8 @@ h1 {
   color: black;
   border: white solid 0.1rem;
 }
-/* Fin seccion main */
-/* inicia seccion 2 */
+/* -------------------------------------------------Fin seccion main */
+/* -------------------------------------------------inicia seccion 2 */
 .section2 {
   height: 45rem;
   display: flex;
@@ -172,8 +177,8 @@ h1 {
   font-size: 2.8rem;
   padding-bottom: 1rem;
 }
-/* Fin seccion 2 */
-/* Inicia seccion3 */
+/* ------------------------------------------Fin seccion 2 */
+/* ----------------------------------------Inicia seccion3 */
 .section3 {
   height: 20rem;
   background-color: rgb(189, 189, 189);
@@ -207,3 +212,38 @@ h1 {
   color: white;
   font-size: 1.8rem;
 }
+/* ------------------------------------------Fin seccion 3 */
+/* ------------------------------------------Venta */
+.modulo-pago{
+  background-color:var(--azul-fuerte);
+  box-shadow: var(--sombra);
+  padding: 1rem;
+}
+.modulo-pago img{
+  width: 10rem;
+  height: 10rem;
+  text-align: center;
+}
+.modulo-pago p{
+  text-align: justify;
+}
+.modulo-pago h4{
+  font-size: 3.5rem;
+  text-align: center;
+  color: var(--color1);
+  padding: 1rem;
+}
+
+
+
+
+/* -------------------------------------------Inicia el footer */
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+}
+/* ---------------------------------------------termina el footer */
