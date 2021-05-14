@@ -218,6 +218,7 @@ h1 {
   background-color:var(--azul-fuerte);
   box-shadow: var(--sombra);
   padding: 1rem;
+  height: 32rem;
 }
 .modulo-pago img{
   width: 10rem;
@@ -245,5 +246,19 @@ footer{
   background-color: black;
   padding: 1rem;
   color: white;
+}
+.mail{
+  color: white;
+  text-decoration: none;
+}
+.mail:hover{
+  color: var(--azul-luz);
+}
+.creditos{
+  color: white;
+  text-decoration: none;
+}
+.creditos:hover{
+  color: var(--azul-luz);
 }
 /* ---------------------------------------------termina el footer */
