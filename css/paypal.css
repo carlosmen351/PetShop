@@ -1,0 +1,26 @@
+section{
+  background-color: var(--color1);
+  text-align: center;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 97vh;
+}
+
+.seccion-compra a{
+  color: black;
+}
+
+.seccion-compra h3{
+  color: black;
+}
+.seccion-compra p{
+  font-size: 2rem;
+}
+
+.seccion-compra img{
+  width: 40rem;
+  height: 40rem;
+  border-radius: 2.5rem;
+}
